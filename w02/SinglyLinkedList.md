@@ -1,3 +1,5 @@
+# 1. 1 Singly Linked List [단일 연결 리스트]
+
 ![](https://velog.velcdn.com/images/genius00hwan/post/6829bd72-dbb1-4541-a02e-125075de6dfe/image.png)
 ## 연결 리스트
 여러 데이터를 사용하는 경우
