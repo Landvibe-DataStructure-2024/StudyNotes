@@ -140,6 +140,7 @@ void linkedList::append(int val) {
         tail->setNext(newNode);
         tail = newNode;
     }
+    updateSize(1);
 }
 ```
 #### insert() : 추가
