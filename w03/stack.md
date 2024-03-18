@@ -167,9 +167,9 @@ int Stack::pop() {
 **단일 연결리스트를 제대로 작성했다면 어려울게 없습니다.**
 
 >전체 코드
-https://github.com/Landvibe-DataStructure-2024/StudyNotes/tree/main/w03
+>https://github.com/Landvibe-DataStructure-2024/StudyNotes/tree/main/w03
 
->### 연결리스트를 활용한 간단한 구현방법
+### 연결리스트를 활용한 간단한 구현방법
 https://github.com/Landvibe-DataStructure-2024/references/blob/master/2023-1%EC%BD%94%EB%93%9C/w03/w3p3.cpp
 ### 배열로 구현한 제일 간단한 구현방법
 https://github.com/Landvibe-DataStructure-2024/references/blob/master/2023-1%EC%BD%94%EB%93%9C/w03/w3p1.cpp
