@@ -1,8 +1,10 @@
 # 2. Stack [스택]
 
 ## 스택이란?
-스택(Stack)은 "쌓다"라는 의미로, 데이터를 차곡차곡 쌓아 올린 형태의 자료구조 입니다.
+
 ![](https://velog.velcdn.com/images/genius00hwan/post/c9bf2ae1-b268-4824-868b-e165ea812982/image.png)
+
+스택(Stack)은 "쌓다"라는 의미로, 데이터를 차곡차곡 쌓아 올린 형태의 자료구조 입니다.
 
 
 #### LIFO
