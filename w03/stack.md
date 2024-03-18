@@ -168,7 +168,7 @@ int Stack::pop() {
 ```
 **단일 연결리스트를 제대로 작성했다면 어려울게 없습니다.**
 
->### 전체 코드
+### 전체 코드
 >https://github.com/Landvibe-DataStructure-2024/StudyNotes/tree/main/w03
 
 ### 연결리스트를 활용한 간단한 구현방법
