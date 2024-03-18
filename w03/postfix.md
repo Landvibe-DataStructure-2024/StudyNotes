@@ -105,3 +105,7 @@ push(*)
 -> pop()
 // 23*56*+7-3+
 ```
+
+이거 풀면 실습은 껌일듯?
+- https://www.acmicpc.net/problem/1918
+- https://www.acmicpc.net/problem/1935
