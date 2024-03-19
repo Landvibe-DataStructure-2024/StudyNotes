@@ -21,12 +21,6 @@ void solve(){
         if (c >= 'A' && c <= 'Z') {
             stk.push(c);
         } else if (c == '(') {
-            while (!stk.empty() && stk.top() != '(') {
-                if ('A' <= stk.top() && stk.top() <= 'Z') {
-                    cout << stk.top();
-                    stk.pop();
-                } else break;
-            }
             stk.push(c);
         } else if (c == '*' || c == '/') {
             while (!stk.empty() && stk.top() != '(') {
