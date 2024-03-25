@@ -164,7 +164,7 @@ _(next, prev로 front, rear를 가리키게 한 이유)_
 https://github.com/Landvibe-DataStructure-2024/StudyNotes/blob/main/w04/LinkedListQueue.cpp
 
 #### 배열로 구현한 선형 큐
-https://github.com/Landvibe-DataStructure-2024/StudyNotes/blob/main/w04/ArrayQueue.cpp
+https://github.com/Landvibe-DataStructure-2024/StudyNotes/blob/main/w04/LinearArrayQueue.cpp
 
 #### 배열로 구현한 환형 큐
 https://github.com/Landvibe-DataStructure-2024/StudyNotes/blob/main/w04/CircularArrayQueue.cpp
