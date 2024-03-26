@@ -76,9 +76,9 @@ public:
 
     bool empty();
 
-    void printFront();
+    void getFront();
 
-    void printRear();
+    void getRear();
 
     void enQueue(int data);
 
