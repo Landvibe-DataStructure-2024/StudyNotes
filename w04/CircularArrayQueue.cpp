@@ -74,7 +74,7 @@ void CircularArrayQueue::enQueue(int data) {
         return;
     }
     rear = (rear + 1) % capacity;
-    // 환형 배열 에서는 modular연산을 통해 rear를 지정합니다.
+    // 환형 배열 에서는 modulo 연산을 통해 rear를 지정합니다.
 
     circularArr[rear] = data;
     size++;
@@ -87,7 +87,7 @@ void CircularArrayQueue::deQueue() {
     }
     printFront();
     front = (front + 1) % capacity;
-    // 환형 배열 에서는 modular연산을 통해 front를 지정합니다.
+    // 환형 배열 에서는 modulo 연산을 통해 front를 지정합니다.
 
     size--;
 }
