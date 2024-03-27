@@ -8,7 +8,6 @@ using namespace std;
 class ArrayQueue {
 private:
     int array[10000];
-    int sequenceArr[20];
     int front;
     int rear;
     int size;
