@@ -50,5 +50,52 @@ sequence의 내부를 순회(traversing)하는 객체
 in vector : `(index+1) % size`
 in list : `curNode = curNode->next`
 
-### <a href="https://github.com/Landvibe-DataStructure-2024/references/blob/master/%EC%83%98%ED%94%8C%202023-1/week05/prob-W5_P1.pdf"> 문제</a>
-### <a href="https://github.com/Landvibe-DataStructure-2024/references/blob/master/2023-1%EC%BD%94%EB%93%9C/w05/w5p1.cpp">코드</a>
+
+#### Iterator 구현
+```cpp
+class Iterator {
+private:
+    Node *node;
+
+public:
+    void set(Node *node) {
+        this->node = node;
+    }
+
+    Node *get() {
+        return node;
+    }
+
+    Iterator *operator++() {
+        node = node->next;
+        return this;
+    }
+
+    Iterator *operator--() {
+        node = node->prev;
+        return this;
+    }
+
+    friend class Sequence;
+};
+```
+#### 사용 방법
+```cpp
+ void next() {
+        if (iter->get() == trailer) {
+            return;
+        }
+        iter++;
+}
+void prev() {
+        if (iter->get() == header->next) {
+            return;
+        }
+        iter--;
+ }
+```
+
+### <a href=https://github.com/Landvibe-DataStructure-2024/StudyNotes/blob/main/w05/sequence.cpp> 전체코드
+
+#### <a href="https://github.com/Landvibe-DataStructure-2024/references/blob/master/%EC%83%98%ED%94%8C%202023-1/week05/prob-W5_P1.pdf"> 문제</a>
+#### <a href="https://github.com/Landvibe-DataStructure-2024/references/blob/master/2023-1%EC%BD%94%EB%93%9C/w05/w5p1.cpp">코드</a>
