@@ -4,8 +4,13 @@
 <li>연속적인 사건 및 행동들</li>
 <li>수열 (수학)</li>
 
+ordered collection of elements of the same type
+: 같은 타입의 원소들이 정렬되어 저장된 집합.
+
 - vector
 - list
+
+이 둘을 포함한 개념
 
 ### vector
 aka. arrayList
