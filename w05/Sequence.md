@@ -1,4 +1,6 @@
-> <h3>sequence</h3> _noun_ <br> a group of related events or things that have a particular order
+# 4. 시퀀스 [Sequence]
+> <h3>sequence</h3> 
+> _noun_ <br> a group of related events or things that have a particular order
 <li>연속적인 사건 및 행동들</li>
 <li>수열 (수학)</li>
 
