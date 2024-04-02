@@ -100,7 +100,7 @@ public:
         delNode->prev->next = delNode->next;
         delNode->next->prev = delNode->prev;
 
-        delete iter;
+        delete delNode;
         begin();
         size--;
     }
