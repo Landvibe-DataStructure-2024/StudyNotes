@@ -78,7 +78,7 @@ find : O(n)
 ## 구현
 
 
-<a>일단 이거 부터</a>
+<a href = https://github.com/Landvibe-DataStructure-2024/StudyNotes/blob/main/w06/vector%EC%82%AC%EC%9A%A9%EB%B2%95.md>일단 이거 부터</a>
 
 
 ### Node
