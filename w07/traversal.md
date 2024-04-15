@@ -83,9 +83,16 @@ void inOrderTraversal(Node *node) {
 #### in binary tree
 ```cpp
 void inOrderTraversalInBinaryTree(Node *node) {
-    inOrderTraversalInBinaryTree(node->lChild);
+    if(node->lChild!=nullptr){
+        inOrderTraversalInBinaryTree(node->lChild);
+    }
+    
     cout << node->val << ' ';
-    inOrderTraversalInBinaryTree(node->rChild);
+    
+    if(node->rChild!=nullptr){
+        inOrderTraversalInBinaryTree(node->rChild);
+    }
+
 }
 ```
 
