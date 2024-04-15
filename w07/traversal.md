@@ -82,4 +82,8 @@ void inOrderTraversalInBinaryTree(Node *node) {
 }
 ```
 
-<a href> 전체 코드 </a>
+<a href="https://github.com/Landvibe-DataStructure-2024/StudyNotes/blob/main/w07/traversal.cpp"> tree with traversal </a>
+
+<a href = "https://github.com/Landvibe-DataStructure-2024/references/tree/master/%EC%83%98%ED%94%8C%202023-1/week07">문제</a>
+
+<a href = "https://github.com/Landvibe-DataStructure-2024/references/tree/master/2023-1%EC%BD%94%EB%93%9C/w07">코드</a>
