@@ -10,21 +10,21 @@
 
 - 전위 순회 
 
-![img.png](img.png)
+<img src="img.png" width ="200">
 
 부모 -> 자식
 
 
 - 후위 순회
 
-![img_2.png](img_2.png)
+<img src="img_2.png" width ="200">
 
 자식 -> 부모
 
 
 - 중위 순회
 
-![img_1.png](img_1.png)
+<img src="img_1.png" width ="200">
 
 왼쪽 자식 -> 부모 -> 오른쪽 자식
 
