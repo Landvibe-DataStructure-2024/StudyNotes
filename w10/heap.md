@@ -73,15 +73,12 @@ void downHeap(int index) {
 ![img.png](img.png)
 ![img_1.png](img_1.png)
 
-<a href="https://github.com/Landvibe-DataStructure-2024/references/blob/f20ad3bfaee468be72e3056182c525dc61bec52a/%EC%83%98%ED%94%8C%202023-1/week10/prob-W10_P1.pdf"> 문제 1</a>
-<br>
-최소 힙 만들어서 넣고 빼고 하는 문제 
-<br>
-<a href="https://github.com/Landvibe-DataStructure-2024/references/blob/f20ad3bfaee468be72e3056182c525dc61bec52a/2023-1%EC%BD%94%EB%93%9C/w10/w10p1.cpp">코드 1</a>
-<br>
 
+<a href = https://github.com/Landvibe-DataStructure-2024/StudyNotes/blob/57a127d30a2ad19bab7d845420945cb0292c11ba/w10/heap.cpp>Heap.cpp</a>
 
 지금부터 이거 풀기 : <br>
+<a href="https://github.com/Landvibe-DataStructure-2024/references/blob/f20ad3bfaee468be72e3056182c525dc61bec52a/%EC%83%98%ED%94%8C%202023-1/week10/prob-W10_P1.pdf"> 문제 1</a>
+
 <a href="https://github.com/Landvibe-DataStructure-2024/references/blob/f20ad3bfaee468be72e3056182c525dc61bec52a/%EC%83%98%ED%94%8C%202023-1/week10/prob-W10_P2.pdf"> 문제 2</a>
 
 
