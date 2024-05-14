@@ -43,7 +43,6 @@ public:
         size = 0;
     }
 
-
     Node *find(int val) {
         Node *curNode = root;
         while (curNode->val != val) {
