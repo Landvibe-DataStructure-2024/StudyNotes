@@ -151,4 +151,4 @@ void erase(int val) {
 }
 ```
 
-전체코드
+<a href = "https://github.com/Landvibe-DataStructure-2024/StudyNotes/blob/main/w11/bst.cpp">전체코드</a>
