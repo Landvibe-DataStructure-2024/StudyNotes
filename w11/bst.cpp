@@ -99,8 +99,10 @@ public:
             } else {
                 if (delNode == parNode->left) { // 지울 노드가 왼쪽 자식이면
                     parNode->left = child; // 부모 왼쪽에 child
-                } else if (delNode == parNode->right) {
+                    child->parent = parNode;
+                } else{
                     parNode->right = child; // 부모 오른쪽에 child
+                    child->parent = parNode;
                 }
             }
         } else { // 자식이 2
@@ -114,8 +116,10 @@ public:
 
             if (succ == succPar->left) { // succ이 왼쪽 자식이면
                 succPar->left = succ->right; // 부모의 왼쪽 <- succ의 오른쪽
+                succ->right->parent=succPar;
             } else {
                 succPar->right = succ->right;  // 부모의 오른쪽 <- succ의 오른쪽
+                succ->right->parent=succPar;
             }
 
             delNode->val = succ->val;
