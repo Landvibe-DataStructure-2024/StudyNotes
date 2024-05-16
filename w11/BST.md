@@ -107,6 +107,7 @@ void insert(int val) {
 void erase(int val) {
     Node *delNode = find(val);
     Node *parNode = delNode->parent;
+    
     if (delNode->left->isDummy() && delNode->right->isDummy()) {// 자식이 0
         if (delNode == root) { // 지울 노드가 root인 경우
             this->root = new Node();
@@ -125,8 +126,11 @@ void erase(int val) {
         } else {
             if (delNode == parNode->left) { // 지울 노드가 왼쪽 자식이면
                 parNode->left = child; // 부모 왼쪽에 child
+                child->parent = parNode;
+
             } else if (delNode == parNode->right) {
                 parNode->right = child; // 부모 오른쪽에 child
+                child->parent = parNode;
             }
         }
     } else { // 자식이 2
@@ -139,8 +143,10 @@ void erase(int val) {
 
         if (succ == succPar->left) { // succ이 왼쪽 자식이면
             succPar->left = succ->right; // 부모의 왼쪽 <- succ의 오른쪽
+            succ->right->parent=succPar;
         } else {
             succPar->right = succ->right;  // 부모의 오른쪽 <- succ의 오른쪽
+            succ->right->parent=succPar;
         }
 
         delNode->val = succ->val;
