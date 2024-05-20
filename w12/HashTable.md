@@ -38,8 +38,9 @@ a dish of chopped meat mixed with potatoes and baked or fried
 
 arr[h(val)] <-- val;
 
-![img.png](img.png)
-![img_1.png](img_1.png)
+<img src = img.png width = 800>
+<img src = img_1.png width = 800>
+
 _thanks for jumin_
 
 ### 충돌
@@ -71,7 +72,8 @@ How to solve?
 - if(hash(key).exist())
   - hash(key + hash2(key))
 - ex)
-![img_2.png](img_2.png)
+
+<img src = img_2.png width = 800>
 
 ### chaining : 체이닝
 - 충돌나면 링리로 이어 붙이기
