@@ -179,6 +179,7 @@ string find(int k) {
             return table[idx].getValue();
         }
         idx = hash(idx + 1);
+        cnt++;
     }
     return "None";
 }
@@ -204,6 +205,7 @@ void erase(int k) {
             return;
         }
         idx = hash(idx + 1);
+        cnt++;
     }
     cout << "None\n";
 }
