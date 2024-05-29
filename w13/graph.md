@@ -109,6 +109,6 @@ void eraseEdge(int s, int d) {
         return;
     }
     graph[s][d] = false;
-    graph[d][s] = true;
+    graph[d][s] = false;
 }
 ```
